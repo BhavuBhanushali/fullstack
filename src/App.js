@@ -1,13 +1,16 @@
 
 import './App.css';
+import StateVar from './StateVar'
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
-      <h2>hello2</h2>
+
+      <StateVar />
+
     </>
   );
 }
 
 export default App;
+

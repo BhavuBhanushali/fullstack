@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.main_div
+{
+  width: 100%;
+    height: 100vh;    
+    display: -webkit-box;
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: rgb(0,100,255,4);
+    flex-direction: inherit; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+.center_div
+{
+  width: 25%;
+  height: 60vh;
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading
+{
+  color: black;
+  background: transparent;
+  font-size: 50px;
+  background-color: white;
+  
+}
+
+
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  /* color: #e74c3c; */
+  cursor: pointer;
+  display: flex;
+  
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.btn:hover, .btn:focus {
+  color :black;
+  outline: 0;
+}
+
+.fourth {
+  border-color: #f1c40f;
+  color:black;
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+.btn_div
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
