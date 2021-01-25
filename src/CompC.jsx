@@ -11,7 +11,7 @@ const CompC = () => {
                             {(lname) => {
                                 return (
                                     <h1>
-                                        hello {fname} {lname}
+                                        hello {fname} {lname} (Consumer)
                                     </h1>
                                 );
                             }}
