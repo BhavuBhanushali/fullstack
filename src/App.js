@@ -1,13 +1,13 @@
 
 import './App.css';
-import StateVar from './StateVar'
+// import StateVar from './StateVar'
 
 
 function App() {
   return (
     <>
 
-      <StateVar />
+      {/* <StateVar /> */}
 
     </>
   );

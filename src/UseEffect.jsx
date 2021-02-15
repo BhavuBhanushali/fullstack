@@ -4,12 +4,14 @@ import Button from '@material-ui/core/Button';
 const UseEffects = () => {
     const [data, setData] = useState(0);
     const [value, setValue] = useState(0);
+
     useEffect(() => {
         alert("I am clicked :   " + data);
-    },[data]);
+    }, [data]);
 
     return (
         <>
+
             <Button variant="outlined" color="primary"
                 onClick={() => {
                     setData(data + 1)
@@ -17,13 +19,14 @@ const UseEffects = () => {
                 }>
                 Click Me {data}
             </Button>
-            <Button variant="outlined" color="primary"
+            <Button style={{ paddingLeft: '20px' }} variant="outlined" color="primary"
                 onClick={() => {
                     setValue(value + 1)
                 }
                 }>
                 Click Me {value}
             </Button>
+            <spam style={{ fontSize: '30px', paddingLeft: '20px' }}>useEffect (hook)</spam>
         </>
     );
 }
